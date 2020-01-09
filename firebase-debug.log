@@ -1,0 +1,56 @@
+[debug] [2019-11-18T21:40:25.357Z] ----------------------------------------------------------------------
+[debug] [2019-11-18T21:40:25.363Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-11-18T21:40:25.363Z] CLI Version:   7.7.0
+[debug] [2019-11-18T21:40:25.363Z] Platform:      win32
+[debug] [2019-11-18T21:40:25.363Z] Node Version:  v13.0.1
+[debug] [2019-11-18T21:40:25.364Z] Time:          Mon Nov 18 2019 15:40:25 GMT-0600 (Central Standard Time)
+[debug] [2019-11-18T21:40:25.365Z] ----------------------------------------------------------------------
+[debug] [2019-11-18T21:40:25.365Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=567738798&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-11-18T21:40:43.758Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-11-18T21:40:43.803Z] Token Fetch Error: FirebaseError: Server Error. unable to get local issuer certificate
+    at Request._callback (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at Request.onRequestError (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:478:20)
+    at TLSSocket.socketErrorListener (_http_client.js:407:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
+[debug] [2019-11-18T21:41:06.373Z] ----------------------------------------------------------------------
+[debug] [2019-11-18T21:41:06.378Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-11-18T21:41:06.378Z] CLI Version:   7.7.0
+[debug] [2019-11-18T21:41:06.378Z] Platform:      win32
+[debug] [2019-11-18T21:41:06.378Z] Node Version:  v13.0.1
+[debug] [2019-11-18T21:41:06.380Z] Time:          Mon Nov 18 2019 15:41:06 GMT-0600 (Central Standard Time)
+[debug] [2019-11-18T21:41:06.380Z] ----------------------------------------------------------------------
+[debug] [2019-11-18T21:41:06.380Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=641411682&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-11-18T21:41:21.064Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-11-18T21:41:21.121Z] Token Fetch Error: FirebaseError: Server Error. unable to get local issuer certificate
+    at Request._callback (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:478:20)
+    at Request.onRequestError (C:\Users\rermaya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:478:20)
+    at TLSSocket.socketErrorListener (_http_client.js:407:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
